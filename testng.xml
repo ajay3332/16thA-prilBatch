@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test parallel="classes" thread-count="4" name="Test">
+  <parameter name="browsername" value="chrome"></parameter>
+    <classes>
+      <class name="com.sauce.TestcaseClass.TC002_VerifyLogOutFunctionality"/>
+      <class name="com.sauce.TestcaseClass.TC003_VerifySingleProductAddtocartFunctinality"/>
+      <class name="com.sauce.TestcaseClass.TC001_VerifyloginFunctionality"/>
+      <class name="com.sauce.TestcaseClass.TC004_VerifyMultiproductFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
